@@ -18,8 +18,8 @@ uint8_t databuf[512];
 uint8_t indexbuf[512];
 uint8_t masterbuf[512];
 
-uint8_t* sdhr_command_p = (uint8_t*)0xc0b0;
-uint8_t* sdhr_data_p = (uint8_t*)0xc0b1;
+uint8_t* sdhr_command_p = (uint8_t*)0xc0a0;
+uint8_t* sdhr_data_p = (uint8_t*)0xc0a1;
 uint8_t* key_p = (uint8_t*)0xc000;
 uint8_t* key_strobe_p = (uint8_t*)0xc010;
 
